@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<meta charset="utf-8">
+<head>
+	<title>超链接伪类选择器</title>
+	<style type="text/css">
+	    /*鼠标未访问时*/
+		a:link{
+			text-decoration: none;
+		}
+		a:visited{
+			color: red;
+		}
+		/*鼠标经过时的样式*/
+		a:hover{
+			background: blue;
+
+			cursor: pointer;
+		}
+		a:active{
+			background-color: yellow;
+		}
+		div{
+			width: 200px;
+			height: 200px;
+			border: 5px solid purple;
+		}
+        div:hover{
+        	background-color: black;
+        	cursor: text;
+        }
+	</style>
+</head>
+<body>
+   <a href="https://www.baidu.com" target="_blank">百度一下，你就知道</a>
+   <div></div>
+</body>
+</html>

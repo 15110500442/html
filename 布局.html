@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>浮动作业</title>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+			
+
+		}
+	#father{
+
+		width: 800px;
+		height: 600px;
+		border: 2px black solid;
+	}
+	#father div{
+		margin: 10px;
+	}
+	#header,#footer{
+		width: 800px;
+		height:100px;
+		background-color: aqua; 
+	}
+
+    #body{
+    	width: 800px;
+    	height: 400px;
+
+    }
+    #left{
+    	width: 595px;
+    	height: 400px;
+    	float: left;
+    	background-color: purple;
+    }
+    #right{
+    	width: 205px;
+    	height: 400px;
+    	float: right;
+    	background-color: yellow;
+    }
+
+		
+	</style>
+</head>
+<body>
+	<div id="father">
+	<div id="header">头部</div>
+	<div id="body">
+	     <div id="left">左边</div>
+	     <div id="right">右边</div>
+	</div>
+	
+	<div id="footer">脚</div>
+	</div>
+</body>
